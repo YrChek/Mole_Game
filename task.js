@@ -19,9 +19,6 @@ start = () => {
             };
             if (Number(miss.textContent) === 5) {
                 finish('Вы проиграли')
-                hit.textContent = 0
-                miss.textContent = 0
-                
             };
         })
     }
